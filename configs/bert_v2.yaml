@@ -1,0 +1,11 @@
+model_name: 'berts/rubert-base-cased'
+way_to_corpus:
+  - 'data_raw/tedtalks_ru.txt'
+  - 'data_raw/books_ru.txt'
+n: 5000000
+lang: 'en'
+version: 2
+length_train: 100000
+length_valid: 20000
+way_to_norm_text: 'data_norm/ru.txt'
+max_epochs: 10

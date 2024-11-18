@@ -1,0 +1,8 @@
+model_name: 'berts/rubert-base-cased'
+n: 5000000
+lang: 'ende'
+version: 3
+length_train: 100000
+length_valid: 20000
+max_epochs: 10
+
